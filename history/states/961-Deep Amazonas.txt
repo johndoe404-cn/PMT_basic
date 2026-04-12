@@ -1,0 +1,23 @@
+state={
+	id=961
+	name="STATE_961"
+	provinces={
+		12919 
+	}
+	history={
+		owner = AMA
+	    add_core_of = AMA
+		add_core_of = BRA
+		add_claim_by = COL
+		add_claim_by = RKV
+		victory_points = {
+			12919 1
+		}
+	}
+	manpower=6753
+	#impassable = yes
+	#force_link_ownership_to = 495 # Amazonas
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=wasteland
+}

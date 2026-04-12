@@ -1,0 +1,22 @@
+state={
+	id=966
+	name="STATE_966"
+	provinces={
+		8172 
+	}
+	history={
+		owner = AMA
+	    add_core_of = AMA
+		add_core_of = BRA
+		add_claim_by = RKV
+		victory_points = {
+			8172 1
+		}
+	}
+	manpower=8962
+	#impassable = yes
+	#force_link_ownership_to = 938 # Para
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=wasteland
+}

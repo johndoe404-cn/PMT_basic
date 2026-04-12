@@ -1,0 +1,71 @@
+
+state={
+	id=527
+	name="STATE_527"
+	manpower = 4516134 # was 6774200
+	state_category = town
+
+	resources = {
+		steel = 8 # was: 30
+		tungsten = 8 # was: 52 - moved 10 to South Korea and the Sangdong province
+	}
+
+	history={
+		owner = NKR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1003 = {
+				naval_base = 2
+			}
+		}
+		
+		victory_points = {
+			4052 5
+		}	
+		victory_points = {
+			11835 3 # Shingishū
+		}	
+		victory_points = {
+			11775 1
+		}
+		#victory_points = {
+		#	6928 3
+		#}
+		#victory_points = {
+		#	898 1
+		#}
+		victory_points = {
+			848 1
+		}
+		victory_points = {
+			10065 2
+		}
+		victory_points = {
+			12040 5
+		}
+		victory_points = {
+			3803 1
+		}
+		victory_points = {
+			6944 1
+		}
+		victory_points = {
+			9790 2
+		}
+		victory_points = {
+			1003 1 # Kaishū
+		}
+
+		add_core_of = NKR
+		add_core_of = KOR
+		add_core_of = ROA
+		add_claim_by = MAN
+	}
+
+	provinces = {
+		912 1003 3912 4052 4107 6963 7070 7155 7171 9790 9795 9918 9981 10065 11828 11835 11896 11915 12040 
+	}
+
+	local_supplies=0.0 
+}

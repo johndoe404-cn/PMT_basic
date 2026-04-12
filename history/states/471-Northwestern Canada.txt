@@ -1,0 +1,42 @@
+state={
+	id=471
+	name="STATE_471"
+	resources = {
+		steel = 2
+		oil = 4
+	}
+
+	history={
+		owner = INU
+		add_core_of = CAS
+		buildings = {
+			infrastructure = 1
+			10548 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			10548 1
+		}
+		victory_points = {
+			1411 1
+		}
+		add_core_of = CAN
+		add_core_of = INU
+		add_core_of = USB
+		add_claim_by = GRN
+		add_claim_by = RUS
+		add_claim_by = RCO
+
+	}
+
+	provinces={
+		917 1411 1799 1872 4678 5403 10548 12508 12571 
+	}
+	manpower=27681
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=3.000
+}

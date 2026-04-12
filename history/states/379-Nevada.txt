@@ -1,0 +1,48 @@
+state = {
+	id = 379
+	name = "STATE_379"
+	manpower = 91057
+	
+	state_category = rural
+	
+	resources = {
+		steel = 136 # was: 136
+		tungsten = 62 # was: 62
+		aluminium = 44 # was: 44
+	}
+
+	history = {
+		add_claim_by = CAS
+		owner = USA
+		add_core_of = USA
+		add_core_of = MEX
+		add_core_of = USB
+		add_claim_by = RUS
+		add_claim_by = RCO
+
+		buildings = {
+			infrastructure = 2
+
+			# Hoover Dam
+			4799 = { dam_mountain = 1 }
+
+		}
+
+		victory_points = {
+			4799 5 # Las Vegas
+		}
+		victory_points = {
+			4607 1
+		}
+		victory_points = {
+			10422 3
+		}
+		
+	}
+
+	provinces = {
+		1862 4521 4607 4736 4799 4816 7756 7827 7879 10422 10591 12134 12399 12425 
+	}
+
+	local_supplies = 0.0 
+}

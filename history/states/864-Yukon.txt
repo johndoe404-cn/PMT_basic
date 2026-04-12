@@ -1,0 +1,29 @@
+state = {
+	id = 864
+	name = "STATE_864"
+	manpower = 4230
+	state_category = wasteland
+	
+	history = {
+		add_claim_by = CAS
+		owner = INU
+		add_core_of = CAN
+		add_core_of = INU
+		add_core_of = USB
+		add_claim_by = RUS
+		add_claim_by = RCO
+		add_claim_by = GRN
+		add_claim_by = JAN
+		victory_points = {
+			7869 1
+		}
+	}
+	
+	
+	provinces = {
+		3606 7869 7891 
+	}
+
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

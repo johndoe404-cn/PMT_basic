@@ -1,0 +1,36 @@
+
+state={
+	id=381
+	name="STATE_381"
+	manpower = 225564
+	state_category = rural
+
+	resources = {
+		coal = 35
+	}
+	
+	history={
+		add_claim_by = CAS
+		owner = USA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = USA
+		add_core_of = USB
+		add_core_of = RUS
+		add_core_of = CAN
+		victory_points = {
+			4723 1
+		}
+		victory_points = {
+			10711 1
+		}
+	}
+
+	provinces={
+		1815 4610 4723 4794 4820 7688 7814 7888 10640 10711 12561 12633 12651 
+	}
+	
+
+	local_supplies=0.0 
+}

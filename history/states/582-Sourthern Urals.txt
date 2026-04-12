@@ -1,0 +1,70 @@
+state = {
+	id = 582
+	name = "STATE_582"
+	resources = {
+		steel = 40.000
+		oil = 6.000
+	}
+
+	history = {
+
+		owner = ORE
+		RSS = {
+			set_province_controller = 4311
+			set_province_controller = 7373
+			set_province_controller = 1406
+			set_province_controller = 4261
+			set_province_controller = 4383
+			set_province_controller = 12200
+		}
+
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			10224 = {
+				supply_node = 1
+			}
+			10256 = {
+				supply_node = 1
+			}
+		}
+
+		add_core_of = SOV
+		add_core_of = SOT
+		add_core_of = SOB
+		add_core_of = SOA
+		add_core_of = RSS
+		add_core_of = RUF
+		add_core_of = RUP
+		add_core_of = TSR
+		add_core_of = TTR
+		add_claim_by = RKM
+		add_core_of = RKL
+		add_claim_by = RKT
+		add_claim_by = BSK
+		add_claim_by = TAT
+		add_claim_by = KAZ
+		add_core_of = ORE
+
+		victory_points = {
+			10256 3 # Magnitogorsk
+		}
+		victory_points = {
+			4311 1 # Beloretsk
+		}
+		victory_points = {
+			10224 2
+		}
+
+	}
+
+	provinces = {
+		1334 1406 4215 4261 4265 4311 4383 4411 7281 7328 7373 7401 10185 10196 10224 10256 12200 
+	}
+
+	manpower = 1044991
+	buildings_max_level_factor = 1.000
+	state_category = rural
+
+	local_supplies = 0.0 
+}

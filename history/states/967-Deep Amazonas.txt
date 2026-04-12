@@ -1,0 +1,27 @@
+
+state={
+	id=967
+	name="STATE_967"
+
+	history={
+		owner = AMA
+	    add_core_of = AMA
+		add_core_of = BRA
+		add_core_of = VEN
+		add_core_of = RKV
+		victory_points = {
+			13285 1
+		}
+
+	}
+
+	provinces={
+		13285 
+	}
+	manpower=10342
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	#impassable = yes
+	#force_link_ownership_to = 495 # Amazonas
+	local_supplies=0.000
+}

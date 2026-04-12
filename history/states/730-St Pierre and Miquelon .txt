@@ -1,0 +1,32 @@
+state={
+	id=730
+	name="STATE_730"
+	manpower=3426
+	state_category = tiny_island
+
+	history={
+		owner = ISM
+		add_core_of = ISM
+		add_core_of = FRA
+		add_core_of = CAN
+		add_core_of = QUE
+		add_core_of = RUS
+		add_core_of = USB
+		add_core_of = GRN
+		add_core_of = INU
+		add_claim_by = RKG
+		buildings = {
+			infrastructure = 2
+			373 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			373 1
+		}
+	}
+	
+	provinces={ 373 }
+
+	local_supplies=0.0 
+}

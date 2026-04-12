@@ -1,0 +1,112 @@
+﻿capital = 589
+
+#set_oob = "ORE_cossack_host"
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+	}
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		
+		has_dlc = "No Step Back"
+		
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_torpedo = 1
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 22
+	neutrality = 66
+	communism = 10
+	fascism = 2
+}
+
+create_field_marshal = {
+	name = "亚历山大·杜托夫"
+	portrait_path = "gfx/leaders/Cossacks/Portrait_Cossacks_Aleksander_Dutov.png"
+	#traits = { RUS_orenburg_cossack engineer_officer old_guard brilliant_strategist trait_reckless offensive_doctrine }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	id = 68666
+}
+create_country_leader = {
+	name = "亚历山大·杜托夫"
+	#desc = "POLITICS_ALEKSANDER_DUTOV_DESC"
+	picture = "gfx/leaders/Cossacks/Portrait_Cossacks_Aleksander_Dutov.png"
+	expire = "1.1.1"
+	ideology = despotism
+}
+create_country_leader = {
+	name = "亚历山大·杜托夫"
+	#desc = "POLITICS_ALEKSANDER_DUTOV_DESC"
+	picture = "gfx/leaders/Cossacks/Portrait_Cossacks_Aleksander_Dutov.png"
+	expire = "1.1.1"
+	ideology = conservatism
+}
+
+add_ideas = ORE_cossack
