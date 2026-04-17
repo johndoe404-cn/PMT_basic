@@ -83,30 +83,4 @@ set_popularities = {
 	fascism = 2
 }
 
-create_field_marshal = {
-	name = "亚历山大·杜托夫"
-	portrait_path = "gfx/leaders/Cossacks/Portrait_Cossacks_Aleksander_Dutov.png"
-	#traits = { RUS_orenburg_cossack engineer_officer old_guard brilliant_strategist trait_reckless offensive_doctrine }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 2
-	id = 68666
-}
-create_country_leader = {
-	name = "亚历山大·杜托夫"
-	#desc = "POLITICS_ALEKSANDER_DUTOV_DESC"
-	picture = "gfx/leaders/Cossacks/Portrait_Cossacks_Aleksander_Dutov.png"
-	expire = "1.1.1"
-	ideology = despotism
-}
-create_country_leader = {
-	name = "亚历山大·杜托夫"
-	#desc = "POLITICS_ALEKSANDER_DUTOV_DESC"
-	picture = "gfx/leaders/Cossacks/Portrait_Cossacks_Aleksander_Dutov.png"
-	expire = "1.1.1"
-	ideology = conservatism
-}
-
 add_ideas = ORE_cossack
