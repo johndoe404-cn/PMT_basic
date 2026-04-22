@@ -1,5 +1,7 @@
+* text=auto eol=lf
+
 # Common, events
-*.txt text eol=auto
+*.txt text
 *.info text eol=crlf
 
 # Localisation
