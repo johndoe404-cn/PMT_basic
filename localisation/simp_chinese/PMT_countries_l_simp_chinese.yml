@@ -22,7 +22,7 @@
  ORE_communism_ADJ: "哈萨克-哥萨克"
  ORE_fascism: "白帐汗国"
  ORE_fascism_DEF: "白帐汗国"
- ORE_fascism_ADJ: "白帐汗国"
+ ORE_fascism_ADJ: "白帐汗"
  ORE_democratic: "奥伦堡哥萨克共和国"
  ORE_democratic_DEF: "奥伦堡哥萨克共和国"
  ORE_democratic_ADJ: "奥伦堡哥萨克"
@@ -276,9 +276,9 @@
  ALA_neutrality_DEF: "阿利亚斯卡俄裔共和国"
  ALA_communism: "阿拉斯加农民共和国"
  ALA_communism_DEF: "阿拉斯加农民共和国"
- ALA_fascism_ADJ: "阿利耶斯卡"
+ ALA_fascism_ADJ: "阿利耶斯卡" //Alyeska
  ALA_democratic_ADJ: "阿拉斯加"
- ALA_neutrality_ADJ: "阿利亚斯卡"
+ ALA_neutrality_ADJ: "阿利亚斯卡" //Alyaska
  ALA_communism_ADJ: "阿拉斯加"
  ALA: "阿拉斯加"
  ALA_DEF: "阿拉斯加"
