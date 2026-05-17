@@ -1,6 +1,4 @@
-﻿#PMI=Pierre Miquelon Islands
-
-capital = 730 # 圣皮埃尔和密克隆
+﻿capital = 730 # 圣皮埃尔和密克隆
 
 # Starting tech
 set_technology = {

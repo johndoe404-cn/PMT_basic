@@ -5,8 +5,8 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = ISM
-		add_core_of = ISM
+		owner = SMQ
+		add_core_of = SMQ
 		add_core_of = FRA
 		add_core_of = CAN
 		add_core_of = QUE
