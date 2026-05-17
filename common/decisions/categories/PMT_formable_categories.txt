@@ -1,0 +1,23 @@
+#formable_nations = {
+#
+#	icon = generic_formable_nations
+#
+#	allowed = {
+#		has_dlc = "Waking the Tiger"
+#	}
+#}
+
+ashanti_category = {
+
+	icon = generic_formable_nations
+
+	#picture = GFX_decision_cat_picture_generic_unite_ashanti
+	
+	allowed = {
+		OR = {
+			original_tag = GHA # 加纳
+			original_tag = IVO # 科特迪瓦/象牙海岸
+			original_tag = TOG # 多哥
+		}
+	}
+}

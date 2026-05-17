@@ -1,0 +1,98 @@
+ashanti_category = {
+	
+	unite_ashanti = { 
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = GHA # 加纳
+				original_tag = IVO # 科特迪瓦/象牙海岸
+				original_tag = TOG # 多哥
+			}
+		}
+
+		available = {
+			
+			274 = {
+				is_controlled_by = ROOT
+			}
+
+			777 = {
+				is_controlled_by = ROOT
+			}
+
+			776 = {
+				is_controlled_by = ROOT
+			}
+
+		}
+
+		visible = {
+			OR = {
+				original_tag = GHA # 加纳
+				original_tag = IVO # 科特迪瓦/象牙海岸
+				original_tag = TOG # 多哥
+			}
+			
+			NOT = { 
+				OR = {
+					has_global_flag = ashanti_flag 
+				}
+			}
+			
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ashanti
+			
+			IF =  {
+				limit = {
+					NOT = {
+						274 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				274 = { add_core_of = ROOT }
+			}
+			
+			IF =  {
+				limit = {
+					NOT = {
+						777 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				777 = { add_core_of = ROOT }
+			}
+
+			IF =  {
+				limit = {
+					NOT = {
+						776 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				776 = { add_core_of = ROOT }
+			}
+
+			hidden_effect = {
+				set_global_flag = ashanti_flag
+
+				news_event = { 
+					id = PMT_formable_nation_news.1
+					days = 1
+					random_days = 2
+				}
+
+			}
+		}
+
+		ai_will_do = {
+			factor = 2000
+		}
+	}
+}
