@@ -1,62 +1,65 @@
 characters = {
-    ORE_aleksander_dutov={
-		name=ORE_aleksander_dutov
-		portraits={
-			civilian={
-				large=GFX_portrait_ORE_aleksander_dutov
-                small=GFX_portrait_ORE_aleksander_dutov_small
+	ORE_aleksander_dutov = {
+		name = ORE_aleksander_dutov
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ORE_aleksander_dutov
+				#small=GFX_portrait_ORE_aleksander_dutov_small
 			}
-            army={
-				large=GFX_portrait_ORE_aleksander_dutov
-				small=GFX_portrait_ORE_aleksander_dutov_small
+			army = {
+				large = GFX_portrait_ORE_aleksander_dutov
+				#small=GFX_portrait_ORE_aleksander_dutov_small
 			}
 		}
-        field_marshal={
-            #traits = { RUS_orenburg_cossack engineer_officer old_guard brilliant_strategist trait_reckless offensive_doctrine }
-            skill = 3
-            attack_skill = 3
-            defense_skill = 1
-            planning_skill = 1
-            logistics_skill = 2
+		field_marshal = {
+			#traits = { RUS_orenburg_cossack engineer_officer old_guard brilliant_strategist trait_reckless offensive_doctrine }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
 		}
-		country_leader={
-			ideology= despotism
-			expire="1965.1.1.1"
-			id=-1
-			trait = { }
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1.1"
+			id = -1
+			trait = {
+			}
 		}
-		country_leader={
-			ideology= conservatism
-			expire="1965.1.1.1"
-			id=-1
-			trait = { }
+		country_leader = {
+			ideology = conservatism
+			expire = "1965.1.1.1"
+			id = -1
+			trait = {
+			}
 		}
 	}
-    SEM_alexander_ionov={
-		name=SEM_aleksander_ionov
-		portraits={
-			civilian={
-				large=GFX_portrait_SEM_aleksander_ionov
-                small=GFX_portrait_SEM_aleksander_ionov_small
+	SEM_alexander_ionov = {
+		name = SEM_aleksander_ionov
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SEM_aleksander_ionov
+				#small=GFX_portrait_SEM_aleksander_ionov_small
 			}
-            army={
-				large=GFX_portrait_SEM_aleksander_ionov
-				small=GFX_portrait_SEM_aleksander_ionov_small
+			army = {
+				large = GFX_portrait_SEM_aleksander_ionov
+				#small=GFX_portrait_SEM_aleksander_ionov_small
 			}
 		}
-        field_marshal={
-            #traits = { RUS_orenburg_cossack engineer_officer old_guard brilliant_strategist trait_reckless offensive_doctrine }
-            skill = 3
-            attack_skill = 3
-            defense_skill = 1
-            planning_skill = 1
-            logistics_skill = 2
+		field_marshal = {
+			#traits = { RUS_orenburg_cossack engineer_officer old_guard brilliant_strategist trait_reckless offensive_doctrine }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
 		}
-		country_leader={
-			ideology= despotism
-			expire="1965.1.1.1"
-			id=-1
-			trait = { }
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1.1"
+			id = -1
+			trait = {
+			}
 		}
 	}
 }

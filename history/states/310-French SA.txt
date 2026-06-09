@@ -1,0 +1,37 @@
+
+state={
+	id=310
+	name="STATE_310"
+	manpower = 47341
+
+	resources = {
+		aluminium = 1
+	}
+
+	state_category = pastoral
+
+	history={
+		owner = CAY
+		add_core_of = CAY
+		add_claim_by = CNN
+		add_claim_by = SUR
+		add_claim_by = BRA
+		add_claim_by = BAS
+		add_claim_by = RKV
+		buildings = {
+			infrastructure = 1
+			12885 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12885 2 
+		}
+	}
+
+	provinces={
+		4934 12885 
+	}
+
+	local_supplies=0.0 
+}

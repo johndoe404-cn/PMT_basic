@@ -1,0 +1,22 @@
+characters = {
+	CNN_adolphe_brezet = {
+		name = CNN_adolphe_brezet
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CNN_adolphe_brezet
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "1.1.1"
+			id = -1
+			trait = { }
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1.1.1"
+			id = -1
+			trait = { }
+		}
+	}
+}

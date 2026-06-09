@@ -1,0 +1,18 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_CNN_adolphe_brezet"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Adolphe_Brezet.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ORE_aleksander_dutov"
+		texturefile = "gfx/leaders/Cossacks/Portrait_Cossacks_Alexander_Dutov.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SEM_aleksander_ionov"
+		texturefile = "gfx/leaders/Cossacks/Portrait_Cossacks_Alexander_Ionov.png"
+	}
+
+}

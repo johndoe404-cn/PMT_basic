@@ -1,0 +1,41 @@
+
+state = {
+	id = 940
+	name = "STATE_940"
+	manpower = 463559
+	
+	state_category = pastoral
+	
+	resources = {
+		aluminium = 6 # was: 4
+		rubber = 4 
+	}
+
+	history = {
+
+		owner = BOL
+		add_core_of = AMA
+		add_core_of = BRA
+		add_core_of = INC
+		#start_resistance = INC
+		add_claim_by = RAN
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			13278 2 
+		}
+		victory_points = {
+			13280 1
+		}
+		
+	}
+
+	provinces = {
+		13278 13279 13280
+	}
+
+	local_supplies = 0.0 
+}
