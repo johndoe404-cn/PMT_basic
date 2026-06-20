@@ -1,0 +1,48 @@
+state={
+	id=432
+	name="STATE_432"
+	resources={
+		oil=18.000
+		coal = 2
+	}
+	provinces={
+		997 1075 1497 1581 7455 7634 10090 10349 10514 12366 12395 13208  
+	}
+	manpower=8977100
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+	history={
+
+		owner = BAN
+		add_core_of = ASO
+		add_core_of = RAJ
+		add_core_of = DIP
+		add_core_of = RHD
+		add_core_of = BAN
+		add_claim_by = PAK
+		add_claim_by = BRM
+		add_claim_by = MPU
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			12366 1
+		}
+		victory_points = {
+			12395 1
+		}
+		victory_points = {
+			10514 1
+		}
+		victory_points = {
+			10090 1
+		}
+		victory_points = {
+			1075 1
+		}
+		victory_points = {
+			7455 2
+		}
+	}
+}

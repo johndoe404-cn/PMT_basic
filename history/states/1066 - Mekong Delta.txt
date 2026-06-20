@@ -11,7 +11,8 @@ state = {
 
 	history = {
 		
-		owner = FRA
+		owner = COC
+		add_core_of = COC
 		add_core_of = IDC
 		add_core_of = VIN
 

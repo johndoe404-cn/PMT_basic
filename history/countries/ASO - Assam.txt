@@ -1,0 +1,34 @@
+capital = 432
+
+set_research_slots = 3
+set_convoys = 0
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	tech_trucks = 1
+	basic_train = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	elephantry = 1
+}
+
+set_grand_doctrine = grand_battleplan
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 60
+	neutrality = 30
+	communism = 5
+	fascism = 5
+}

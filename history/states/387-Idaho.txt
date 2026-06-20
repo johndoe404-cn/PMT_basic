@@ -15,6 +15,7 @@ state={
 	history={
 		owner = USA
 		add_core_of = CAS
+		add_core_of = DES
 		buildings = {
 			infrastructure = 2
 		}

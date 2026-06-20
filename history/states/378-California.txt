@@ -15,6 +15,7 @@ state={
 		owner = CAL
 		add_core_of = CAL
 		add_core_of = CAS
+		add_core_of = DES
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 2

@@ -1,0 +1,34 @@
+state={
+	id=871
+	name="STATE_871"
+	resources = {
+		steel = 10
+		chromium = 24
+		oil = 36
+	}
+	provinces={
+		1526 2191 8200 10949 10969 10997 11011 12948 12962 12976 12990 
+	}
+	history = {
+		buildings = {
+			infrastructure = 1
+		}
+		owner = WET
+		add_core_of = WET
+		add_core_of = AST
+		add_claim_by = RAA
+		victory_points = {
+			8200 1
+		}
+		victory_points = {
+			12948 1
+		}
+		victory_points = {
+			12990 1
+		}
+	}
+	state_category = pastoral
+	manpower=50000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
