@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = INU
+		add_core_of = BCO
 		add_core_of = CAS
 		buildings = {
 			infrastructure = 1

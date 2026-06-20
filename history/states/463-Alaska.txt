@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = INU
+		add_core_of = ALA
 		add_core_of = CAS
 		buildings = {
 			infrastructure = 1

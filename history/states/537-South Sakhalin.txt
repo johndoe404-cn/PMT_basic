@@ -1,0 +1,43 @@
+state= {
+	id = 537
+	name = "STATE_537"
+	manpower = 331943 # was 295196
+	resources = {
+		#oil = 3 # was: 4 - The only oil on Sakhalin seem to have been in the northern part, held by Soviet
+		coal = 10 #initial distribution
+	}
+	
+	state_category = rural
+
+	history= {
+
+		owner = ANU
+		add_core_of = SAK
+		add_core_of = JAP
+		add_core_of = ANU
+		add_core_of = EZO
+		add_core_of = FER
+		add_core_of = VLA
+		add_core_of = ROA
+		add_core_of = MAN
+		add_claim_by = UKR
+		
+		buildings = {
+			infrastructure = 2
+			12446 = {
+				naval_base = 1
+
+			}
+		}
+		victory_points = {
+			12446 3 # Toyohara
+		}
+		victory_points = {
+			1820 1
+		}
+
+	}
+	provinces = { 1322 1820 12446 }
+
+	local_supplies=0.0 
+}

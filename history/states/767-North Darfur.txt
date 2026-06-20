@@ -5,10 +5,9 @@ state=
 	manpower = 8143
 	
 	state_category = wasteland
-	impassable = yes
-	force_link_ownership_to = 551 # Kharthoum
 	
 	history= {
+		add_core_of = DAR
 		add_core_of = SUD
 		add_core_of = EGY
 		add_core_of = RNA
@@ -16,7 +15,7 @@ state=
 		add_core_of = LBA
 		add_claim_by = ADU
 		add_claim_by = RAR
-		owner = SUD
+		owner = DAR
 		buildings = {
 			infrastructure = 0
 		}

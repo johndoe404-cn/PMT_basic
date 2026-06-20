@@ -1,0 +1,32 @@
+state={
+	id=709
+	name="STATE_709"
+	manpower = 126703
+	
+	state_category = small_island
+	
+	history=
+	{
+		owner = SYC
+		add_core_of = SYC
+		add_core_of = MAD
+		add_claim_by = RKA
+		add_claim_by = OMA
+		add_claim_by = IMO
+		buildings = {
+			infrastructure = 2
+			2188 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			2188 1
+		}
+	}
+	
+	provinces={
+		2188 
+	}
+
+	local_supplies=0.0 
+}
