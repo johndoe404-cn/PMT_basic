@@ -1,4 +1,4 @@
-version="0.4.2"
+version="0.4.3"
 name="破碎世界：更多国家一框架"
 dependencies={
 	"posuishijie"

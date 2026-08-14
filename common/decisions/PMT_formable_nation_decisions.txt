@@ -106,7 +106,7 @@ vietnam_category = {
 		allowed = {
 			OR = {
 				original_tag = COC # 交趾支那
-				original_tag = CHM # 越南
+				original_tag = CHM # 占婆
 			}
 		}
 
@@ -133,7 +133,7 @@ vietnam_category = {
 		visible = {
 			OR = {
 				original_tag = COC # 交趾支那
-				original_tag = CHM # 越南
+				original_tag = CHM # 占婆
 			}
 			
 			NOT = { 
