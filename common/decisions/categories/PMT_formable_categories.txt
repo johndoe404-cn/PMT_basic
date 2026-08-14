@@ -21,3 +21,31 @@ ashanti_category = {
 		}
 	}
 }
+
+vietnam_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+		OR = {
+			original_tag = COC # 交趾支那
+			original_tag = CHM # 越南
+		}
+	}
+}
+
+indochina_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+		OR = {
+			original_tag = VIN # 越南
+			original_tag = CHM # 占婆
+			original_tag = COC # 交趾支那
+			original_tag = LAO # 老挝
+			original_tag = CPS # 占巴塞
+			original_tag = CAM # 柬埔寨
+		}
+	}
+}

@@ -1,4 +1,4 @@
-﻿l_simp_chinese:
+l_simp_chinese:
  SLA_democratic: "斯拉沃尼亚共和国"
  SLA_democratic_DEF: "斯拉沃尼亚共和国"
  SLA_democratic_ADJ: "斯拉沃尼亚"
@@ -742,3 +742,7 @@
  ESP: "圣埃斯皮里图"
  ESP_DEF: "圣埃斯皮里图"
  ESP_ADJ: "圣埃斯皮里图"
+ GPR: "帕拉"
+ GPR_DEF: "帕拉"
+ GPR_ADJ: "帕拉"
+

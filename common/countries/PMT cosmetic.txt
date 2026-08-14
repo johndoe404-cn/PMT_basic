@@ -1,0 +1,14 @@
+ashanti = {
+	color = rgb { 200 150 50 }
+	color_ui = rgb { 200 150 50 }
+}
+
+formable_vietnam = {
+	color = rgb { 230 223 50 }
+	color_ui = rgb { 230 223 50 }
+}
+
+formable_indochina = {
+	color = rgb { 80 150 205 }
+	color_ui = rgb { 80 150 205 }
+}

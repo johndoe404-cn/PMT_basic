@@ -96,3 +96,295 @@ ashanti_category = {
 		}
 	}
 }
+
+vietnam_category = {
+	
+	form_vietnam = { 
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = COC # 交趾支那
+				original_tag = CHM # 越南
+			}
+		}
+
+		available = {
+			
+			286 = {
+				is_controlled_by = ROOT
+			}
+
+			671 = {
+				is_controlled_by = ROOT
+			}
+
+			1017 = {
+				is_controlled_by = ROOT
+			}
+
+			1066 = {
+				is_controlled_by = ROOT
+			}
+
+		}
+
+		visible = {
+			OR = {
+				original_tag = COC # 交趾支那
+				original_tag = CHM # 越南
+			}
+			
+			NOT = { 
+				OR = {
+					has_global_flag = vietnam_flag 
+				}
+			}
+			
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = formable_vietnam
+			
+			IF =  {
+				limit = {
+					NOT = {
+						286 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				286 = { add_core_of = ROOT }
+			}
+			
+			IF =  {
+				limit = {
+					NOT = {
+						671 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				671 = { add_core_of = ROOT }
+			}
+
+			IF =  {
+				limit = {
+					NOT = {
+						1017 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				1017 = { add_core_of = ROOT }
+			}
+
+			IF =  {
+				limit = {
+					NOT = {
+						1066 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				1066 = { add_core_of = ROOT }
+			}
+
+			hidden_effect = {
+				set_global_flag = vietnam_flag
+
+				news_event = { 
+					id = PMT_formable_nation_news.1
+					days = 1
+					random_days = 2
+				}
+
+			}
+		}
+
+		ai_will_do = {
+			factor = 2000
+		}
+	}
+}
+
+indochina_category = {
+	
+	form_indochina = { 
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = VIN # 越南
+				original_tag = CHM # 占婆
+				original_tag = COC # 交趾支那
+				original_tag = LAO # 老挝
+				original_tag = CPS # 占巴塞
+				original_tag = CAM # 柬埔寨
+			}
+		}
+
+		available = {
+			
+			286 = {
+				is_controlled_by = ROOT
+			}
+
+			670 = {
+				is_controlled_by = ROOT
+			}
+
+			671 = {
+				is_controlled_by = ROOT
+			}
+
+			741 = {
+				is_controlled_by = ROOT
+			}
+
+			1017 = {
+				is_controlled_by = ROOT
+			}
+
+			1066 = {
+				is_controlled_by = ROOT
+			}
+
+			1067 = {
+				is_controlled_by = ROOT
+			}
+
+			1068 = {
+				is_controlled_by = ROOT
+			}
+
+		}
+
+		visible = {
+			OR = {
+				original_tag = VIN # 越南
+				original_tag = CHM # 占婆
+				original_tag = COC # 交趾支那
+				original_tag = LAO # 老挝
+				original_tag = CPS # 占巴塞
+				original_tag = CAM # 柬埔寨
+			}
+			
+			NOT = { 
+				OR = {
+					has_global_flag = indochina_flag 
+				}
+			}
+			
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = formable_indochina
+			
+			IF =  {
+				limit = {
+					NOT = {
+						286 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				286 = { add_core_of = ROOT }
+			}
+			
+			IF =  {
+				limit = {
+					NOT = {
+						670 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				670 = { add_core_of = ROOT }
+			}
+
+			IF =  {
+				limit = {
+					NOT = {
+						671 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				671 = { add_core_of = ROOT }
+			}
+
+			IF =  {
+				limit = {
+					NOT = {
+						741 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				741 = { add_core_of = ROOT }
+			}
+
+			IF =  {
+				limit = {
+					NOT = {
+						1017 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				1017 = { add_core_of = ROOT }
+			}
+
+			IF =  {
+				limit = {
+					NOT = {
+						1066 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				1066 = { add_core_of = ROOT }
+			}
+
+			IF =  {
+				limit = {
+					NOT = {
+						1067 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				1067 = { add_core_of = ROOT }
+			}
+
+			IF =  {
+				limit = {
+					NOT = {
+						1068 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				1068 = { add_core_of = ROOT }
+			}
+
+			hidden_effect = {
+				set_global_flag = indochina_flag
+
+				news_event = { 
+					id = PMT_formable_nation_news.1
+					days = 1
+					random_days = 2
+				}
+
+			}
+		}
+
+		ai_will_do = {
+			factor = 2000
+		}
+	}
+}
