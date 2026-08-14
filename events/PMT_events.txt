@@ -1,0 +1,105 @@
+news_event = {
+	id = PMT_formable_nation_news.1
+	title = PMT_formable_nation_news.1.t
+	desc = PMT_formable_nation_news.1.d
+	picture = GFX_news_event_journalists_speech
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PMT_formable_nation_news.1.a
+		trigger = {
+			OR = {
+                original_tag = GHA # 加纳
+                original_tag = IVO # 科特迪瓦/象牙海岸
+                original_tag = TOG # 多哥
+			}
+		}
+	}
+	option = {
+		name = PMT_formable_nation_news.1.b
+		trigger = { 
+			NOT = {
+				OR = {
+                    original_tag = GHA # 加纳
+                    original_tag = IVO # 科特迪瓦/象牙海岸
+                    original_tag = TOG # 多哥
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = PMT_formable_nation_news.2
+	title = PMT_formable_nation_news.2.t
+	desc = PMT_formable_nation_news.2.d
+	picture = GFX_news_event_journalists_speech
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PMT_formable_nation_news.2.a
+		trigger = {
+			OR = {
+                original_tag = COC # 交趾支那
+                original_tag = CHM # 占婆
+			}
+		}
+	}
+	option = {
+		name = PMT_formable_nation_news.2.b
+		trigger = { 
+			NOT = {
+				OR = {
+                    original_tag = COC # 交趾支那
+                    original_tag = CHM # 占婆
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = PMT_formable_nation_news.3
+	title = PMT_formable_nation_news.3.t
+	desc = PMT_formable_nation_news.3.d
+	picture = GFX_news_event_journalists_speech
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PMT_formable_nation_news.3.a
+		trigger = {
+			OR = {
+                original_tag = VIN # 越南
+                original_tag = CHM # 占婆
+                original_tag = COC # 交趾支那
+                original_tag = LAO # 老挝
+                original_tag = CPS # 占巴塞
+                original_tag = CAM # 柬埔寨
+			}
+		}
+	}
+	option = {
+		name = PMT_formable_nation_news.3.b
+		trigger = { 
+			NOT = {
+				OR = {
+                    original_tag = VIN # 越南
+                    original_tag = CHM # 占婆
+                    original_tag = COC # 交趾支那
+                    original_tag = LAO # 老挝
+                    original_tag = CPS # 占巴塞
+                    original_tag = CAM # 柬埔寨
+				}
+			}
+		}
+	}
+}

@@ -26,10 +26,12 @@ vietnam_category = {
 
 	icon = generic_formable_nations
 
+	#picture = GFX_decision_cat_picture_generic_vietnam
+
 	allowed = {
 		OR = {
 			original_tag = COC # 交趾支那
-			original_tag = CHM # 越南
+			original_tag = CHM # 占婆
 		}
 	}
 }
@@ -37,6 +39,8 @@ vietnam_category = {
 indochina_category = {
 
 	icon = generic_formable_nations
+
+	#picture = GFX_decision_cat_picture_generic_indochina
 
 	allowed = {
 		OR = {

@@ -195,7 +195,7 @@ vietnam_category = {
 				set_global_flag = vietnam_flag
 
 				news_event = { 
-					id = PMT_formable_nation_news.1
+					id = PMT_formable_nation_news.2
 					days = 1
 					random_days = 2
 				}
@@ -375,7 +375,7 @@ indochina_category = {
 				set_global_flag = indochina_flag
 
 				news_event = { 
-					id = PMT_formable_nation_news.1
+					id = PMT_formable_nation_news.3
 					days = 1
 					random_days = 2
 				}
